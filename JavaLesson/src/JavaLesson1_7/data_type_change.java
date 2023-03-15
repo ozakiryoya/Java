@@ -18,7 +18,7 @@
 //				②変数 pi に「3」を掛けた値をコンソールに出力して下さい。
 //				④int型の変数 integer を宣言し、変数 pi を int型に型変換しコンソールに出力して下さい。
 				double pi = 3.14;
-				System.out.println(pi * 3);
+				System.out.println(pi * 3);	
 				int integer = (int)pi;
 				System.out.println(integer);
 //				問３）

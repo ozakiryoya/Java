@@ -6,7 +6,7 @@ public class Dog {
 	// Q2：フィールドに動物の数の変数を定義してください。
 	private int num;
 	// Q3：Q1で作成した変数に「犬」を代入するコンストラクタを作成してください。
-	public Dog(String name) {
+	Dog(String name) {
 		this.name = name;
 		System.out.println(this.name);
 	}

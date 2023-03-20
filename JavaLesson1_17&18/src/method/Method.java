@@ -20,7 +20,7 @@ public class Method {
 		// Q6：Q5で作成した関数を用いて、このメソッド（関数）の引数をQ5のメソッド（関数）の引数に渡して
 		//     配列の要素の平均値を返すメソッド（関数）を作成してください。
 
-		hello();
+		greetQ1();
 		
 		int q2 = add(123);
 		System.out.println(q2);
@@ -37,7 +37,7 @@ public class Method {
 		int q6 = average(6);
 		System.out.println(q6);
 	}
-	public static void hello() {
+	public static void greetQ1() {
 		System.out.println("Hello Java");
 	}
 	public static int add(int a) {

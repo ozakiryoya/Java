@@ -41,7 +41,7 @@ public class Method {
 		System.out.println(Arrays.toString(q5));
 		
 		//Q6 数字を渡しaverageメソッドを呼出し、配列の要素の平均値をq6へ代入し出力します。
-		int q6 = average(6);
+		double q6 = average(6);
 		System.out.println(q6);
 	}
 	//Q1 Hello Javaと出力します。
@@ -70,12 +70,13 @@ public class Method {
 	}
 	/*受け取った引数をarrayメソッドへ渡し受け取った配列をsumへ順番に加算します。
 	 * 配列の要素を加算したsumを平均値として配列の要素数を除算し返します。*/
-	public static int average(int a) {
+	public static double average(int a) {
 		int[] b = array(a);
 		int sum = 0;
 		for(int x = 0; x < b.length;x++) {
 			sum += b[x];
 		}
-		return sum / b.length;
+		double ave = (double)sum / b.length;
+		return ave;
 	}
 }

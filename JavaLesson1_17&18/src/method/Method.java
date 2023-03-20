@@ -72,7 +72,6 @@ public class Method {
 	 * 配列の要素を加算したsumを平均値として配列の要素数を除算し返します。*/
 	public static double average(int a) {
 		int[] b = array(a);
-		System.out.println(Arrays.toString(b));
 		int sum = 0;
 		for(int x = 0; x < b.length;x++) {
 			sum += b[x];

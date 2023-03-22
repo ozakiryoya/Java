@@ -40,9 +40,14 @@ public class Method {
 		int[] q5 = array(5);
 		System.out.println(Arrays.toString(q5));
 		
-		//Q6 数字を渡しaverageメソッドを呼出し、配列の要素の平均値をq6へ代入し出力します。
-		double q6 = average(6);
-		System.out.println(q6);
+		//Q6 数字をQ5で作成したarrayメソッドへ渡し出力します。
+		int[] q6 = array(6);
+		//Q5で作成した配列q6をコンソールへ出力しています。
+		System.out.println(Arrays.toString(q6));
+		//Q5で作成した配列q6を配列の要素の平均値を返すarrayメソッドを変数aveへ代入しています。
+		double ave = average(q6);
+		//arrayメソッドから受け取った変数aveを出力します。
+		System.out.println(ave);
 	}
 	//Q1 Hello Javaと出力します。
 	public static void greetQ1() {
@@ -69,14 +74,13 @@ public class Method {
 		return array2;
 	}
 	/*受け取った引数をarrayメソッドへ渡し受け取った配列をsumへ順番に加算します。
-	 * 配列の要素を加算したsumを平均値として配列の要素数を除算し返します。*/
-	public static double average(int a) {
-		int[] b = array(a);
+	 * 配列の要素を加算したsumを平均値として配列の要素数を除算した変数aveを返します。*/
+	public static double average(int[] q6) {
 		int sum = 0;
-		for(int x = 0; x < b.length;x++) {
-			sum += b[x];
+		for(int a = 0; a < q6.length;a++) {
+			sum += q6[a];
 		}
-		double ave = (double)sum / b.length;
+		double ave = (double)sum / q6.length;
 		return ave;
 	}
 }

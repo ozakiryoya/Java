@@ -59,6 +59,8 @@ public class Status extends Player{
 		System.out.println("攻撃力：" + this.attack);
 		System.out.println("素早さ" + this.speed);
 		System.out.println("防御力" + this.defence);
+		System.out.println();
+		System.out.println("さあ冒険に出かけよう！");
 	}
 	
 }

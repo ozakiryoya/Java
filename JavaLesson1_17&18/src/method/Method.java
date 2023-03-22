@@ -40,7 +40,7 @@ public class Method {
 		int[] q5 = array(5);
 		System.out.println(Arrays.toString(q5));
 		
-		//Q6 数字をQ5で作成したarrayメソッドへ渡します。
+		//Q6 数字をQ5で作成したarrayメソッドへ渡し出力します。
 		int[] q6 = array(6);
 		//Q5で作成した配列q6をコンソールへ出力しています。
 		System.out.println(Arrays.toString(q6));

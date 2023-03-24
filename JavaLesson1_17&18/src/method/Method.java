@@ -1,6 +1,7 @@
 package method;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class Method {
 
@@ -37,11 +38,11 @@ public class Method {
 		System.out.println(q4);
 		
 		//Q5 数字を渡しarrayメソッドを呼出し、1～100のランダムな数字を引数分を配列q5へ格納し出力します。
-		int[] q5 = array(5);
+		int [] q5 = random(5);
 		System.out.println(Arrays.toString(q5));
 		
 		//Q6 数字をQ5で作成したarrayメソッドへ渡し出力します。
-		int[] q6 = array(6);
+		int[] q6 = random(6);
 		//Q5で作成した配列q6をコンソールへ出力しています。
 		System.out.println(Arrays.toString(q6));
 		//Q5で作成した配列q6を配列の要素の平均値を返すarrayメソッドを変数aveへ代入しています。
@@ -66,10 +67,11 @@ public class Method {
 		return a * b;
 	}
 	//Q5 引数分要素数の配列を作成し、1～100のランダムな数字を引数分格納し返します。
-	public static int[] array(int x) {
+	public static int [] random(int x) {
 		int[] array2 = new int[x];
+		Random rnd = new Random();
 		for(int a = 0;a < array2.length;a++) {
-			array2[a] = (int)(Math.random() * 100 + 1);
+			array2[a] = rnd.nextInt(100);
 		}
 		return array2;
 	}

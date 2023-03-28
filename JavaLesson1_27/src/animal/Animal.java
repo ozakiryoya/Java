@@ -17,14 +17,3 @@ abstract class Animal {
 }
 
 
-/*	public void setName() {
-		this.name = name;
-	}
-	
-	public void setHeight() {
-		this.height = height;
-	}
-	
-	public void setSpeed() {
-		this.speed = speed;
-	}*/

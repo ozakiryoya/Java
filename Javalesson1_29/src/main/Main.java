@@ -8,6 +8,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
+		
+		//問題文
 		/*
 	 	
 	 	0, "北海道:札幌市:83424"

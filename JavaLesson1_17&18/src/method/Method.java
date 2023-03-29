@@ -78,7 +78,7 @@ public class Method {
 	/*受け取った引数をarrayメソッドへ渡し受け取った配列をsumへ順番に加算します。
 	 * 配列の要素を加算したsumを平均値として配列の要素数を除算した変数aveを返します。*/
 	public static double average(int[] q6) {
-		int sum = 0;
+		double sum = 0;
 		for(int a = 0; a < q6.length;a++) {
 			sum += q6[a];
 		}

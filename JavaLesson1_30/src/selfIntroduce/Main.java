@@ -12,7 +12,6 @@ class Main {
 //	    System.out.println(person1.height);
 	   
 	    person1.print();
-	    person2.print();
 	    person1.countData();
 	    
 	  }
